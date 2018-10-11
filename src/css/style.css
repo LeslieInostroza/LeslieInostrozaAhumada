@@ -1,0 +1,242 @@
+.snip1241 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.snip1241 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1241 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  padding: 0;
+}
+.snip1241 a {
+  padding: 0.5em 0.8em;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+}
+.snip1241 a:before,
+.snip1241 a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+.snip1241 a:before {
+  right: 0;
+  top: 0;
+  border-right: 3px solid #9b59b6;
+  border-top: 3px solid #9b59b6;
+  -webkit-transform: translate(-100%, 50%);
+  transform: translate(-100%, 50%);
+}
+.snip1241 a:after {
+  left: 0;
+  bottom: 0;
+  border-left: 3px solid #9b59b6;
+  border-bottom: 3px solid #9b59b6;
+  -webkit-transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
+}
+.snip1241 a:hover,
+.snip1241 .current a {
+  color: #ffffff;
+}
+.snip1241 a:hover:before,
+.snip1241 .current a:before,
+.snip1241 a:hover:after,
+.snip1241 .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+ html,
+ body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px soild black;
+}
+.name {
+  display: inline-block;
+  padding: .3em;
+  font-family: 'Megrim', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  user-select: none;
+  transform: translate(-50%,-50%);
+  color: rgba(255,255,255,.68);
+  border: .075em solid rgba(255,255,255,.1);
+}
+
+.section {
+	min-height: 800px;
+	position: relative;
+	text-align: center;
+	font-family: sans-serif, arial;
+	margin: 0;
+}
+
+ p {
+	margin: 0;
+	font-family: sans-serif, arial;
+	font-weight: bold;
+}
+
+#section1 {
+	background: #283044;
+	color: #aeb9b9;
+}
+#section2 {
+	background: #283044;
+	color: #aeb9b9;
+}
+
+#section3 {
+	background: #283044;
+  color: #aeb9b9;
+  padding-bottom: 5px;
+}
+
+#section4 {
+	background: #283044;
+	color: #aeb9b9;
+}
+#section5 {
+	background: #283044;
+	color: #aeb9b9;
+}
+/*  h1 {
+	font-size: 50px;
+	margin-bottom: 25px;
+} */
+.title{
+  font-size: 40px;
+  margin-bottom: 25px;
+  padding-bottom: 180px;
+}
+.title-top {
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+
+.title-bottom {
+	font-size: 30px;
+}
+
+.title-tx {
+	font-size: 20px;
+	opacity: 0.8;
+}
+
+.nav {
+	position: fixed; /*left: 50%;*/
+	top: 20px;
+	z-index: 9;
+}
+
+/* .nav a {
+	padding: 7px 20px;
+	border-radius: 7px;
+	margin-right: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif, arial;
+	font-weight: 100;
+}
+
+.nav a.active {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.nav a:hover {
+	background: rgba(255, 255, 255, 0.7);
+} */
+
+.fork-wr img {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding-bottom: 23px;
+  padding-top: 90px;
+}
+
+/* h1{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+} */
+
+h4{
+  color: #86377b
+}
+.card-title{
+  text-align: center;
+}
+
+.card{
+  margin-top: 5px;
+  margin: 15px;
+  border: solid;
+}
+
+.btn-primary {
+  color: #fff;
+  
+  border-color: #86377b;
+}
+.demo{
+  background-color: #86377b;
+}
+.proyecto{
+  background-color:#fff;
+  color: #86377b;
+  margin-left: 5px;
+}
+
+.btn-group>.btn:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 5px;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #27273c;
+  border-color: #27273c;
+}
+/* .proyectos{
+  background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+  padding: 100px 0;
+} */

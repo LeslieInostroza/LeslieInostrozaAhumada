@@ -51,8 +51,7 @@
   transform: translate(-50%,-50%);
   color: rgba(255,255,255,.68);
   border: .075em solid rgba(255,255,255,.1);
-}
-
+} 
 .section {
 	min-height: 700px;
 	position: relative;
@@ -75,7 +74,7 @@
 #section2 {
   min-height: 600px;
   background-attachment: fixed;
-	background: #283044;
+	background: rgb(30, 0, 36);
   color: #aeb9b9;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +82,7 @@
 
 #section3 {
   background-attachment: fixed;
-	background: #283044;
+	background: rgb(30, 0, 36);
   color: #aeb9b9;
   padding-bottom: 5px;
   background-repeat: no-repeat;
@@ -92,14 +91,14 @@
 
 #section4 {
   background-attachment: fixed;
-	background: #283044;
+	background: rgb(30, 0, 36);
   color: #aeb9b9;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #section5 {
   background-attachment: fixed;
-	background: #283044;
+	background: rgb(30, 0, 36);
   color: #aeb9b9;
   background-repeat: no-repeat;
   background-size: cover;

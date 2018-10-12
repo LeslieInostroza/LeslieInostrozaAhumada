@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   cursor: pointer;
+  scroll-behavior: smooth;
 }
 .navbar{
   background-color:rgb(30, 0, 36);
@@ -41,6 +42,18 @@
   top: 0;
   width: 100%;
 }
+
+#note {
+  position: absolute;
+  color: rgba(249,241,204,1);
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  text-align: center;
+  user-select: none;
+  font-family: Arial;
+}
 .name {
   display: inline-block;
   padding: .3em;
@@ -53,7 +66,7 @@
   border: .075em solid rgba(255,255,255,.1);
 } 
 .section {
-	min-height: 700px;
+	min-height: 650px;
 	position: relative;
 	text-align: center;
 	font-family: sans-serif, arial;
@@ -72,7 +85,7 @@
   background-size: cover;
 }
 #section2 {
-  min-height: 600px;
+  min-height: 550px;
   background-attachment: fixed;
 	background: rgb(30, 0, 36);
   color: #aeb9b9;

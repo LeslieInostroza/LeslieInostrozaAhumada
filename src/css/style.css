@@ -8,12 +8,12 @@
   scroll-behavior: smooth;
 }
 .navbar{
-  background-color:rgb(30, 0, 36);
+  background-color:transparent;/* rgb(30, 0, 36); */
   color: white;
   z-index: 9999;
 }
 .bg-light{
-  background-color: rgb(30, 0, 36);
+  background-color: transparent;/* rgb(30, 0, 36); */
   color: white;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -78,10 +78,11 @@
 }
 
 #section1 {
-  background-image: linear-gradient(rgb(30, 0, 36),rgb(34, 1, 52),rgb(90, 0, 36),rgb(177, 0, 0) );
+ /*  background-image: url(../../assets/IMG/fondo_particulas.jpg); */ /* linear-gradient(rgb(30, 0, 36),rgb(34, 1, 52),rgb(90, 0, 36)/* ,rgb(177, 0, 0) */ 
   /* rgb(30, 0, 36), rgb(34, 1, 52), rgb(90, 0, 36), rgb(177, 0, 0), rgb(255, 51, 0); */
   /* background-image: url(../../assets/IMG/mountains-mountain-peaks-sky-sunrise.jpg); */
   /* background: #283044; */
+  background-image: url(../../assets/IMG/portada_sin_texto.jpg);
   color: #aeb9b9;
   background-position: center center;
   background-attachment: fixed;
@@ -91,7 +92,7 @@
 #section2 {
   min-height: 550px;
   background-attachment: fixed;
-	background: rgb(30, 0, 36);
+	/* background: rgb(30, 0, 36); */
   color: #aeb9b9;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,7 +100,7 @@
 
 #section3 {
   background-attachment: fixed;
-	background: rgb(30, 0, 36);
+	/* background: rgb(30, 0, 36); */
   color: #aeb9b9;
   padding-bottom: 5px;
   background-repeat: no-repeat;
@@ -108,189 +109,17 @@
 
 #section4 {
   background-attachment: fixed;
-	background: rgb(30, 0, 36);
+	/* background: rgb(30, 0, 36); */
   color: #aeb9b9;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #section5 {
   background-attachment: fixed;
-	background: rgb(30, 0, 36);
+	/* background: rgb(30, 0, 36); */
   color: #aeb9b9;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /*Diseño sobre seccion 2 sobre mi*/
-
-/* figure.snip0071 {
-  font-family: 'Raleway', Arial, sans-serif;
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  max-height: 400px;
-  width: 98%;
-  background: rgb(30, 0, 36);
-  color: #ffffff;
-  border: 10px solid #ffffff;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-figure.snip0071 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-figure.snip0071 .image {
-  position: relative;
-  width: 58%;
-  overflow: hidden;
-  right: -14%;
-  float: right;
-  z-index: 1;
-  box-shadow: 0px 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: skewX(-15deg);
-  transform: skewX(-15deg);
-}
-figure.snip0071 .image img {
-  position: relative;
-  left: -20%;
-  max-width: 100%;
-  -webkit-transform: skewX(15deg);
-  transform: skewX(15deg);
-}
-figure.snip0071 figcaption {
-  height: 100%;
-  margin: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-}
-figure.snip0071 figcaption h2,
-figure.snip0071 figcaption p {
-  margin: 0;
-  text-align: left;
-  width: 100%;
-}
-figure.snip0071 figcaption h2 {
-  bottom: 40px;
-  position: absolute;
-  padding: 10px 20px;
-  background: rgba(0, 0, 0, 0.5);
-  font-size: 1.3em;
-  font-weight: 300;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-figure.snip0071 figcaption h2 span {
-  font-weight: 800;
-}
-figure.snip0071 figcaption p {
-  padding: 20px;
-  width: 50%;
-  bottom: 80px;
-  position: absolute;
-  font-size: 0.9em;
-  opacity: 0.8;
-}
-figure.snip0071 figcaption .position {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  line-height: 40px;
-  padding-left: 20px;
-  font-style: italic;
-  opacity: 0.3;
-}
-figure.snip0071 a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: 1;
-}
-figure.snip0071:hover figcaption,
-figure.snip0071.hover figcaption {
-  background: rgb(90, 0, 36);
-}
-figure.snip0071:hover .image,
-figure.snip0071.hover .image {
-  box-shadow: 0px 0 0px,rgb(34, 1, 52)
-} */
-
-figure.snip1113 {
-  font-family: 'Raleway', Arial, sans-serif;
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 220px;
-  max-width: 310px;
-  width: 100%;
-  background:rgb(30, 0, 36);
-  text-align: center;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-
-figure.snip1113 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-figure.snip1113 img {
-  max-width: 65%;
-  margin: 40px auto;
-  display: block;
-  position: relative;
-  border: 3px solid #666666;
-  padding: 15px 15px 85px 15px;
-  -webkit-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-
-figure.snip1113 figcaption {
-  position: absolute;
-  height: 120px;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-  display: block;
-}
-
-figure.snip1113 h3 {
-  background-color: rgb(30, 0, 36);
-  color: #000000;
-  font-size: 1.7em;
-  width: 100%;
-  padding: 5px 12px;
-  margin: 0;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-
-figure.snip1113 h3 span {
-  font-weight: 800;
-}
-
-figure.snip1113 h4 {
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  opacity: 0.6;
-  font-size: 1.1em;
-}
-
-figure.snip1113.red img {
-  border-color: #ab3326;
-}
-
-figure.snip1113.red h3,
-figure.snip1113.red h4 {
-  color: #ab3326;
-}

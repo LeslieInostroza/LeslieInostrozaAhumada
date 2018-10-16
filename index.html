@@ -4,110 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
   <!-- link bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <!-- link presonal -->
+ 
   <link rel="stylesheet" href="src/css/style.css">
-  <title>LeslieInostroza</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed">
+        <a class="navbar-brand" href="#section2"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#portada">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobreMi">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+      </nav>
 
-<!-- inicio menu -->
-<nav class="navbar navbar-expand-lg navbar-light fixed">
-  <a class="navbar-brand" href="#section2">Leslie Inostroza</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#section1">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#section3">Proyectos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#section4">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#section5">Contacto</a>
-      </li>
-    </ul>
-    <a class="navbar-brand" href="#">Front-end Developer</a>
-  </div>
-</nav>
-<!-- fin menu -->
+  <div id="portada"></div>
+  <div id="sobreMi">
+    <div class="row">
+        <div class="title col-sm-12">
+            <h1> Sobre Mí</h1>
+          </div>
+    </div>
 
-<div id="section1" class="section">
-    <canvas id="canvas"></canvas>
-    <span id="note"></span>
-  <!-- <h1 class="name">Leslie Inostroza</h1> -->
-</div>
-
-<div id="section2" class="section">
-  <h1 class="title">Sobre Mí</h1>
-
-</div>
-<div id="section3" class="section">
-  <h1>Proyectos</h1>
-  <div class="card-group">
-    <div class="card"  style="width: 18rem;">
-      <img class="card-img-top img-thumbnail" src="assets/proyectos/Captura de pantalla de 2018-09-24 22-33-51.png" alt="Card image cap">
-      <div class="card-body">
-        <h4 class="card-title">ConectApp</h4>
-        <p class="card-text">ConectApp es una red social a nivel de curso, para agilizar el proceso de comunicación entre apoderados y profesores, de manera simple, intuitiva y directa.</p>
-        <p>Desarrollada con: JavaScript, Bootstrap, Firebase.</p>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <a href="https://red-social-lab-2018.firebaseapp.com/" class="btn btn-primary demo" target="_blank" role="button">Ver Demo</a>
-          <a href="https://github.com/LeslieInostroza/scl-2018-05-bc-core-am-socialnetwork" class="btn btn-primary proyecto" target="_blank"role="button">Ver Proyecto</a>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="card"  style="width: 18rem;border: solid;">
-      <img class="card-img-top img-thumbnail" src="assets/proyectos/Captura de pantalla de 2018-09-24 22-55-30.png" alt="Card image cap">
-      <div class="card-body">
-        <h4 class="card-title">EasyFood</h4>
-        <p class="card-text">EasyFood es una red social, donde se comparten recetas, para asi acceder a ellas, de manera agil y simple</p>
-        <p>Desarrollada con: Angular, Firebase, Material-Angular, Angular/fire</p>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <a href="https://redsocialproyectoangular.firebaseapp.com" class="btn btn-primary demo" target="_blank" role="button">Ver Demo</a>
-          <a href="https://github.com/LeslieInostroza/redSocialProyectoAngular" class="btn btn-primary proyecto" target="_blank"role="button">Ver Proyecto</a>
-        </div>
-      </div>
-    </div>
-    <div class="card"  style="width: 18rem;border: solid;">
-      <img class="card-img-top mark img-thumbnail" src="assets/proyectos/Captura de pantalla de 2018-09-25 00-52-23.png" alt="Card image cap">
-      <div class="card-body">
-        <h4 class="card-title">MarkDown-Links</h4>
-        <p class="card-text">MarkDown-Links, es una libreria, que permite, la extracción de links, que se encuentran, dentro de archivos de textos, con extensión ".md", además, posee la opción, de revisar el estado en el cual se hayan,dichos links encontrados.</p>
-        <p>Desarrollada con: JavaScript, NodeJs</p>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <a href="https://github.com/LeslieInostroza/scl-2018-01-FE-markdown" class="btn btn-primary demo" target="_blank" role="button">Ver Demo</a>
-          <a href="https://github.com/LeslieInostroza/scl-2018-01-FE-markdown" class="btn btn-primary proyecto" target="_blank"role="button">Ver Proyecto</a>
-        </div>
+      <div class="col-sm-6">
+        <figure class="snip0067 red">
+          <img src="assest/IMG/IMG_2671.JPG" alt="sample8" />
+          <figcaption>
+            <h2>Leslie <span>Inostroza</span></h2>
+            <p>Mis skills son ...</p>
+            <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-email-unread"></i></a><a href="#"><i class="ion-ios-star"></i></a></div>
+          </figcaption>
+          <div class="position">Front-end Developer</div>
+        </figure>
       </div>
     </div>
   </div>
-</div>
-<div id="section4" class="section">
-        <h1 class="title">Skills</h1>
-        <p></p>
-</div>
-<div id="section5" class="section">
-  <h1 class="title">Contacto</h1>
-  <p></p>
-</div>
+  <div id="proyectos"></div>
+  <div id="contacto"></div>
 
 
-
-
-
-
-  <!-- script bootstrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <!--  script propio -->
-  <script src="src/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

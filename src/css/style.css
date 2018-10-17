@@ -304,4 +304,163 @@ background-attachment: fixed;
   padding-top: 56px;
   text-align: center;
   color: white;
+  left: 25px;
+}
+.containerProyectos{
+  margin-left: 90px;
+}
+
+/*EStilo contacto*/
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1085 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: #000000;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+figure.snip1085 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+figure.snip1085 img {
+  opacity: 0.3;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+figure.snip1085 figcaption,
+figure.snip1085 .reverse {
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+}
+figure.snip1085 figcaption {
+  background: #000000;
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip1085 figcaption h3 {
+  font-size: 1.4em;
+  top: 50%;
+  left: 0;
+  letter-spacing: -1px;
+  position: absolute;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0 20px;
+  margin: 0;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+figure.snip1085 .reverse {
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0.5;
+  -webkit-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip1085 .icons {
+  top: 50%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+figure.snip1085 .icons i {
+  display: inline-block;
+  font-size: 28px;
+  
+  margin: 5px;
+  color: #000000;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+figure.snip1085 a {
+  opacity: 0.55;
+}
+figure.snip1085 a:hover {
+  opacity: 0.9;
+}
+figure.ssnip1085.grey{
+  background: rgb(40, 45, 50);
+}
+figure.snip1085.blue {
+  background: #091b27;
+}
+
+figure.snip1085.grey figcaption {
+  background: rgb(120, 126, 132)
+}
+figure.snip1085.blue figcaption {
+  background: #2980b9;
+}
+figure.snip1085.red {
+  background: #2e0e0a;
+}
+figure.snip1085.red figcaption {
+  background: #c0392b;
+}
+figure.snip1085.yellow {
+  background: #4d2909;
+}
+figure.snip1085.yellow figcaption {
+  background: #e67e22;
+}
+figure.snip1085.green {
+  background: #061c10;
+}
+figure.snip1085.green figcaption {
+  background: #27ae60;
+}
+figure.snip1085:hover img,
+figure.snip1085.hover img {
+  opacity: 1;
+}
+figure.snip1085:hover figcaption,
+figure.snip1085.hover figcaption {
+  opacity: 0.5;
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip1085:hover .reverse,
+figure.snip1085.hover .reverse {
+  opacity: 1;
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.containerContactoOne{
+  margin-left: 90px;
+}
+.containerContactoTwo{
+  margin-left: 220px;
 }

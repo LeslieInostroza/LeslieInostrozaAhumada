@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
  
   <link rel="stylesheet" href="src/css/style.css">
@@ -36,7 +37,9 @@
               </div>
             </div>
 
-            <div class="intro-text col-12">
+            <div class="intro-text col-12"data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
               <h1 class="titleName">Leslie Inostroza</h1>
               <p>Front-end Developer</p>
               <a href="#about" class="btn btn-default btn-lg page-scroll animated fadeInDown"><i class="fa fa-chevron-down"></i>
@@ -103,12 +106,13 @@
         <hr>
         <p class="col-md-12 col-md-push-2 white">Estas son las herramientas que utilizo, para resolver problemas dando lo mejor de mí.<br></p>
       </div>
-      <div class="row col-md-12 col-xs-12 container-icon">
-          <i class="devicon-html5-plain-wordmark colored"></i>
+      <div class="row col-md-12 col-xs-12 container-icon" >
+          <i class="devicon-html5-plain-wordmark colored" ></i>
           <i class="devicon-javascript-plain colored"></i>
           <i class="devicon-css3-plain-wordmark colored"></i>
           <i class="devicon-bootstrap-plain-wordmark colored"></i>
           <i class="devicon-angularjs-plain colored"></i>
+          <i class="devicon-git-plain colored"></i>
       </div>
     </div>
   </div>
@@ -162,11 +166,11 @@
         </div>
         <div class="row">
           <div class="col-md-12 col-md-offset-2 redso">
-                <h5> ve mis trabajos e ingresa a mi LinkedIn</h5>
+                <h5> Ve mis trabajos, conoce mi LinkedIn</h5>
             <div class="social">
               <ul>
-                <li><a href="https://github.com/LeslieInostroza" target="_blank"><i class="fab fa-github red white"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/leslieinostroza/" target="_blank"><i class="fab fa-linkedin red white"></i></a></li>
+                <li><a href="https://github.com/LeslieInostroza" target="_blank"><i class="fab fa-github gitlin white"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/leslieinostroza/" target="_blank"><i class="fab fa-linkedin gitlin white"></i></a></li>
               </ul>
             </div>
           </div>
@@ -183,6 +187,10 @@
     </div>
   </div>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

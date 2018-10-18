@@ -42,7 +42,7 @@ p {
   color: #fff;
   background: url(../../assets/IMG/portada_sin_texto.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 p.intro {
@@ -146,9 +146,9 @@ hr {
 
 /* seccion sobre mi */
 
-.mar-top {
-  /* margin-top: 4%; */
-}
+/* .mar-top {
+  
+} */
 
 #about {
   padding: 100px 0;
@@ -203,18 +203,23 @@ hr {
   text-align: center;
 }
 #skills hr {
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
 }
 #skills i{
   margin: 30px;
   font-size: 100px;
+  position: relative;
+  bottom: 18pc;
+  background-color:  rgba(0, 0, 0, 0.8);
 }
 #skills .container-icon{
   justify-content: center;
+  margin-top: 388px;
 }
 
 .white {
   color: white;
+  font-size: 20px;
 }
 /* seccion proyectos*/
 
@@ -222,10 +227,8 @@ hr {
   background:url(../../assets/IMG/pag4.jpg);
   background-size: cover;
   background-attachment: fixed;
-      /* margin-left: 49px; */
-      padding-left: 40px;
-      /* padding-top: 10px; */
-      padding-bottom: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 
 #proyectos h2{
@@ -251,6 +254,9 @@ hr {
 }
 #contact h5{
   text-align: center;
+  top: 33px;
+  position: relative;
+
 }
 #contact h2 {
   color: #fff;
@@ -263,6 +269,7 @@ hr {
 #contact i.fa {
   color: #121d1f;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 #contact .text-danger {
@@ -283,12 +290,12 @@ hr {
   color: #822b81;
 }
 
-.red {
-  font-size: 30px;
+.gitlin {
+  font-size: 60px;
   transition: all 0.5s;
 }
 
-.red:hover {
+.gitlin:hover {
   color: black;
 }
 
@@ -442,6 +449,9 @@ hr {
   .mr-auto, .mx-auto {
     margin-left: 0;
   }
+  .intro-text {
+    left: 0;
+}
 }
 @media(min-width:768px) {
   .intro {

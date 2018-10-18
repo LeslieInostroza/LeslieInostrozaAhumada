@@ -33,6 +33,7 @@ p {
 }
 .intro-text{
   left: 12px;
+  top: -28px;
 }
 .intro {
   display: table;
@@ -42,7 +43,7 @@ p {
   color: #fff;
   background: url(../../assets/IMG/portada_sin_texto.jpg) no-repeat center center;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 p.intro {
@@ -76,7 +77,6 @@ hr {
   text-align: center;
   position: relative;
   background: rgb(107, 77, 168);
-  /* Old browsers */
   background: linear-gradient(to right, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
   margin: 0 auto;
   margin-bottom: 30px;
@@ -85,6 +85,12 @@ hr {
 
 /* Navbar */
 
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
 .navbar{
   background-color:rgba(0, 0, 0, 0.9);
   color: white;
@@ -121,6 +127,7 @@ hr {
   color: #df0ddb;
   position: relative;
   top: 24px;
+  font-size: 35px;
 }
 
 .btn-primary {
@@ -167,6 +174,9 @@ hr {
 #about .about-container{
   background-color: rgba(0, 0, 0, 0.8);
 }
+/* #about .row{
+  margin-left: 3px;
+} */
 #about .about-text {
   margin-left: 10px;
 }
@@ -193,7 +203,6 @@ hr {
 
 #skills {
   background:url(../../assets/IMG/pagina1.jpg);
-  /* Old browsers */
   background: linear-gradient(to right, black 0%);
   background-attachment: fixed;
 }
@@ -245,7 +254,7 @@ hr {
 #proyectos h2:hover{
   color: rgb(176, 101, 238);
 }
-/* Contact Section */
+/* seccion de contacto */
 
 #contact {
   color: #fff;
@@ -268,9 +277,11 @@ hr {
 #contact h2 {
   color: #fff;
 }
-
+#contact h2:hover{
+  color: rgb(176, 101, 238);
+}
 #contact hr {
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
 }
 
 #contact i.fa {
@@ -319,7 +330,7 @@ hr {
 .lines-menu {
   color: white;
 }
-/* Footer Section*/
+/* section footer*/
 
 #footer {
   background: black;
@@ -450,7 +461,7 @@ hr {
   font-family: 'Marck Script', cursive;
 }
 
-/* Media Queries */
+/* responsive */
 
 @media (max-width: 768px){
   .mr-auto, .mx-auto {
@@ -458,7 +469,7 @@ hr {
   }
   .intro-text {
     left: 0;
-    top: 29px;
+    top: 45px;
     padding-left: 38px;
   }
 

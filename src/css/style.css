@@ -462,16 +462,44 @@ hr {
 }
 
 /* responsive */
-
-@media (max-width: 768px){
-  .mr-auto, .mx-auto {
-    margin-left: 0;
+@media(min-width: 375px) and (max-width:425px){
+  .intro-text {
+    left: 0;
+    /* top: 45px; */
+    top: 57px;
+    padding-left: 38px;
   }
+}
+ @media (max-width:325px){
   .intro-text {
     left: 0;
     top: 45px;
     padding-left: 38px;
   }
+}
+@media (min-width: 768){
+  .intro-text {
+    left: 0;
+    top: 17px;
+    padding-left: 38px;
+  }
+}
+@media(min-width: 1024px){
+  .intro-text {
+    left: 0;
+    /* top: 25px; */
+    padding-left: 38px;
+  }
+}
+@media (max-width: 768px){
+  .mr-auto, .mx-auto {
+    margin-left: 0;
+  }
+ /*  .intro-text {
+    left: 0;
+    top: 5px;
+    padding-left: 38px;
+  } */
 
   #navbarSupportedContent{
     transition:none;

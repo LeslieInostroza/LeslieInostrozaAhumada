@@ -29,8 +29,11 @@ h2 {
 
 p {
   font-size: 15.2px;
+  font-weight: 700;
 }
-
+.intro-text{
+  left: 12px;
+}
 .intro {
   display: table;
   width: 100%;
@@ -102,7 +105,7 @@ hr {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color:rgba(176, 101, 238, 0.8)
+  color:rgb(176, 101, 238);
 }
 .mr-auto, .mx-auto {
   margin-left: 515px;
@@ -133,7 +136,7 @@ hr {
 
 .intro .overlay {
   padding: 100px 0;
-  background-color: rgba(95, 75, 139, 0.4);
+  background-color: rgb(176, 101, 238, 0.2);
   height: 100vh;
 }
 
@@ -144,7 +147,7 @@ hr {
 /* seccion sobre mi */
 
 .mar-top {
-  margin-top: 4%;
+  /* margin-top: 4%; */
 }
 
 #about {
@@ -159,12 +162,19 @@ hr {
 #about .about-text {
   margin-left: 10px;
 }
-
+#about h2{
+  color:white;
+}
+#about h2:hover{
+  color: rgb(176, 101, 238);
+}
 #about img {
+  position: relative;
+  top: 25px;
   float: right;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   width: 100%;
-  height: 55vh;
+  height: 40vh;
 }
 
 #about p {
@@ -186,6 +196,7 @@ hr {
   margin: 30px;
 }
 #skills h2 {
+  padding: 30px 0 0px 0;
   color: #fff;
 }
 #skilss p{
@@ -193,6 +204,13 @@ hr {
 }
 #skills hr {
   background: rgba(255, 255, 255, 0.3);
+}
+#skills i{
+  margin: 30px;
+  font-size: 100px;
+}
+#skills .container-icon{
+  justify-content: center;
 }
 
 .white {
@@ -204,6 +222,18 @@ hr {
   background:url(../../assets/IMG/pag4.jpg);
   background-size: cover;
   background-attachment: fixed;
+      /* margin-left: 49px; */
+      padding-left: 40px;
+      /* padding-top: 10px; */
+      padding-bottom: 40px;
+}
+
+#proyectos h2{
+  padding: 30px 0 0px 0;
+  color: white;
+}
+#proyectos h2:hover{
+  color: rgb(176, 101, 238);
 }
 /* Contact Section */
 
@@ -219,7 +249,9 @@ hr {
   padding: 100px 0 40px 0;
   background: linear-gradient(to right, black 0%, rgba(176, 101, 238, 0.5) 100%);
 }
-
+#contact h5{
+  text-align: center;
+}
 #contact h2 {
   color: #fff;
 }

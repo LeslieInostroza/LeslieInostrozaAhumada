@@ -114,7 +114,7 @@ hr {
   color:rgb(176, 101, 238);
 }
 .mr-auto, .mx-auto {
-  margin-left: 515px;
+  margin-left: 500px;
 } 
 .fixed {
   position: fixed;
@@ -225,8 +225,11 @@ hr {
   font-size: 100px;
   position: relative;
   bottom: 18pc;
-  background-color:  rgba(0, 0, 0, 0.8);
+  background-color:  rgba(0, 0, 0, 0.5);
   border-radius: 20%;
+}
+#skills .devicon-github-plain-wordmark{
+ color: white;
 }
 #skills .container-icon{
   justify-content: center;
@@ -268,7 +271,7 @@ hr {
   padding: 100px 0 40px 0;
   background: linear-gradient(to right, black 0%, rgba(176, 101, 238, 0.5) 100%);
 }
-#contact h5{
+#contact h4{
   text-align: center;
   top: 33px;
   position: relative;
@@ -462,20 +465,22 @@ hr {
 }
 
 /* responsive */
-/* @media(min-width: 375px) and (max-width:425px){
-  .intro-text {
-    left: 0;
-    top: 57px;
-    padding-left: 38px;
-  }
-}
- @media (max-width:325px){
+
+@media (max-width:325px){
   .intro-text {
     left: 0;
     top: 45px;
     padding-left: 38px;
   }
-} */
+}
+
+@media(max-width:767px){
+  #about .about-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    top:15px;
+  }
+}
+
 @media (max-width: 768px){
   .mr-auto, .mx-auto {
     margin-left: 0;

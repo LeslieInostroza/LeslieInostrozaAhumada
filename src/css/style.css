@@ -206,6 +206,11 @@ hr {
   background: linear-gradient(to right, black 0%);
   background-attachment: fixed;
 }
+#skills .overlay {
+ /*  padding: 100px 0; */
+  background-color: rgba(131, 101, 238, 0.2);
+  /* height: 120vh; */
+}
 #skills img{
   height: 25vh;
   margin: 30px;
